@@ -1,16 +1,28 @@
-# med_ui
+# Med Assist AI (`med_ui`)
 
-A new Flutter project.
+An intelligent, AI-powered healthcare assistant platform providing symptom analysis, drug interaction checking, mental health support, and health metric tracking — built with React, TypeScript, Vite, Tailwind CSS, Supabase, and Google Gemini API.
+
+> **Disclaimer:** Med Assist AI is an informational tool only. It does **not** provide clinical diagnosis or treatment. Always consult a licensed healthcare professional.
+
+## Features
+- AI-Powered Symptom Analysis (10 Indian languages)
+- Interactive Body Symptom Map
+- Drug Interaction Checker & Medicine Scanner
+- Medication Reminder Scheduler
+- Mental Health Suite (Breathing, Mood Tracker, Stress Monitor)
+- Health Metric Progress Tracker with Recharts
+- Emergency Info Card (exportable as image)
+- Doctor Directory & Health News Feed
+
+## Tech Stack
+React 18, TypeScript, Vite, Tailwind CSS, shadcn/ui, Google Gemini API, Supabase Edge Functions, Recharts
 
 ## Getting Started
+```bash
+npm install
+cp .env.example .env
+npm run dev
+```
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Author
+JAI ([@JAIII12](https://github.com/JAIII12))
